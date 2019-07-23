@@ -8,7 +8,6 @@
 ?>
 @extends('dashboard.layouts.main')
 @section('title','Table')
-@section('sidebar',view('dashboard.components.sidebar',['active'=>'table']))
 @section('content')
     <div class="row">
         <div class="col-md-12">

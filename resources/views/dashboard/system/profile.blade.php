@@ -9,7 +9,6 @@
 
 @extends('dashboard.layouts.main')
 @section('title','Profile')
-@section('sidebar',view('dashboard.components.sidebar',['active'=>'profile']))
 @section('content')
     <div class="row">
         <div class="col-md-8">

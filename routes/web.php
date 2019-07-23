@@ -11,6 +11,7 @@
 |
 */
 
+Route::view('/', 'welcome')->name('welcome');
 Route::view('/dashboard', 'dashboard.system.dashboard')->name('dashboard');
 Route::view('/icon', 'dashboard.system.icon')->name('icon');
 Route::view('/map', 'dashboard.system.map')->name('map');

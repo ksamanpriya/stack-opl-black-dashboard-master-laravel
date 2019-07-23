@@ -24,7 +24,7 @@
 </head>
 <body class="">
 <div class="wrapper">
-    @yield('sidebar',view('dashboard.components.sidebar',['active'=>'dashboard']))
+    @yield('sidebar',view('dashboard.components.sidebar'))
     <div class="main-panel">
         <!-- Navbar -->
     @yield('navbar',view('dashboard.components.navbar'))

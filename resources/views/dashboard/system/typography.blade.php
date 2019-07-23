@@ -9,7 +9,6 @@
 
 @extends('dashboard.layouts.main')
 @section('title','Typography')
-@section('sidebar',view('dashboard.components.sidebar',['active'=>'typography']))
 @section('content')
     <div class="row">
         <div class="col-md-12">
