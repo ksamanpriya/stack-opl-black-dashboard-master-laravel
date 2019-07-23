@@ -71,7 +71,7 @@
                         </li>
                         <li class="dropdown-divider"></li>
                         <li class="nav-link">
-                            <a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a>
+                            <a href="{{route('welcome')}}" class="nav-item dropdown-item">Log out</a>
                         </li>
                     </ul>
                 </li>

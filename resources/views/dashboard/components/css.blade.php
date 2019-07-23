@@ -13,4 +13,5 @@
 <!-- CSS Files -->
 <link href="{{asset('dash-board/css/black-dashboard.css?v=1.0.0')}}" rel="stylesheet" />
 
-@yield('style')
+@stack('css-link')
+@stack('css-style')

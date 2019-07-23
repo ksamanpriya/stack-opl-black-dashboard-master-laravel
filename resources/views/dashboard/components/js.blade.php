@@ -22,4 +22,5 @@
 <script src="{{asset('dash-board/js/black-dashboard.min.js?v=1.0.0')}}"></script>
 <!-- Black Dashboard DEMO methods, don't include it in your project! -->
 <script src="{{asset('dash-board/demo/demo.js')}}"></script>
-@yield('script')
+@stack('js-link')
+@stack('js-script')
