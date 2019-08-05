@@ -134,7 +134,7 @@
     </div>
 @endsection
 
-@section('script')
+@push('js-script')
     <script>
         $(document).ready(function() {
             $().ready(function() {
@@ -254,5 +254,5 @@
         });
     </script>
 
-@endsection
+@endpush
 
